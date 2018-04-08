@@ -1,0 +1,8 @@
+---
+- name: Install and Configure GlusterFS
+  hosts: all
+  roles:
+    - geerlingguy.firewall
+    - geerlingguy.glusterfs
+
+
