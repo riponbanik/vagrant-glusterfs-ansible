@@ -1,9 +1,9 @@
-[all]
+[gluster]
 192.168.56.51
 192.168.56.52
 192.168.56.53
 
-[all:vars]
+[gluster:vars]
 ansible_connection=ssh
 ansible_ssh_user=vagrant
 ansible_become=true
