@@ -21,6 +21,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo yum -y install net-tools
     sudo yum -y install telnet 
+    sudo yum -y install sshpass
   SHELL
   
   # We setup three nodes to be gluster hosts
